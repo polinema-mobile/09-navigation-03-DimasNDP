@@ -81,7 +81,7 @@ public class ScoreFragment extends Fragment {
 			result.append(gol.getName())
 					.append(" ")
 					.append(gol.getMinute())
-					.append(" ");
+					.append("\" ");
 		}
 		return result.toString();
 	}
@@ -92,7 +92,7 @@ public class ScoreFragment extends Fragment {
 			result.append(gol.getName())
 					.append(" ")
 					.append(gol.getMinute())
-					.append(" ");
+					.append("\" ");
 		}
 		return result.toString();
 	}
